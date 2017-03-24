@@ -1,8 +1,8 @@
 {
   "name": "redux-small-axios-middleware",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Redux middleware for async request with axios",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepublish": "make prepublish"
   },
