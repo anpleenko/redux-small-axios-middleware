@@ -1,5 +1,13 @@
 # redux-small-axios-middleware
 
+### Redux middleware for async request with axios
+
+[![NPM](https://nodei.co/npm-dl/redux-small-axios-middleware.png?months=1)](https://nodei.co/npm/redux-small-axios-middleware/)
+
+[![Build Status](https://travis-ci.org/vaeum/redux-small-axios-middleware.svg?branch=master)](https://travis-ci.org/vaeum/redux-small-axios-middleware)
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][npm-url]
+
 ### install
 
 ```bash
@@ -57,6 +65,6 @@ import { someActions } from '../anyAction.js'
 dispatch(someActions());
 ```
 
-
-
-
+[downloads-image]: https://img.shields.io/npm/dm/redux-small-axios-middleware.svg
+[npm-url]: https://www.npmjs.com/package/redux-small-axios-middleware
+[npm-image]: https://img.shields.io/npm/v/redux-small-axios-middleware.svg
