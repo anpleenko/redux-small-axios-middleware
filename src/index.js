@@ -31,7 +31,7 @@ const reduxSmallAxiosMiddleware = (axios) => {
           payload: response.data,
         });
 
-        onSuccessCallback();
+        onSuccessCallback(response.data);
       })
 
       .catch((error) => {
@@ -43,7 +43,7 @@ const reduxSmallAxiosMiddleware = (axios) => {
           status: error.response.status,
         });
 
-        onErrorCallback();
+        onErrorCallback(error);
       });
   };
 };
