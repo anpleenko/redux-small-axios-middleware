@@ -1,10 +1,10 @@
 {
   "name": "redux-small-axios-middleware",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redux middleware for async request with axios",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "make prepublish"
+    "prepublish": "rm -rf ./dist && babel src --out-dir ./dist"
   },
   "repository": {
     "type": "git",
